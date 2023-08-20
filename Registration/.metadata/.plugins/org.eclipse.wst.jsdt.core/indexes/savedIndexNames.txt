@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+C:\Users\tanma\Desktop\Project\Registration\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
