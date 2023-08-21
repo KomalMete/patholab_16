@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pathology Lab Employee Management</title>
+</head>
+<body>
+    <h1>Employee Management</h1>
+    <form action="process_employee.php" method="POST">
+       <!-- <label for="employee_id">Employee ID:</label>
+        <input type="text" id="employee_id" name="employee_id" required><br>
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br>
+        -->
+
+        <label for="patient_list">Patients List:</label>
+       <!-- <input type="text" id="patient_list" name="patient_list" required><br>
+        -->
+        <select id="patient_list" name="patient_list">
+            <option value="patient_1">patient_1</option>
+            <option value="patient_2">patient_2</option>
+            <option value="patient_3">patient_3</option>
+        </select><br>
+
+        <label for="sample_type">Sample Type:</label>
+        <select id="sample_type" name="sample_type">
+            <option value="blood">Blood</option>
+            <option value="urine">Urine</option>
+            <option value="tissue">Tissue</option>
+        </select><br>
+
+        <label for="bill_id">Bill ID:</label>
+        <input type="text" id="bill_id" name="bill_id" required><br>
+
+        <label for="is_accepted">Is Accepted:</label>
+        <input type="checkbox" id="is_accepted" name="is_accepted"><br>
+
+        <label for="status">Status:</label>
+        <!-- <input type="checkbox" id="status" name="status"><br> -->
+        <select id="status" name="status">
+            <option value="status">On The Way</option>
+            <option value="status">in 1 hour</option>
+          <!--  <option value="tissue">Tissue</option>-->
+        </select><br>
+
+        <label for="phone_no">Phone Number:</label>
+        <input type="tel" id="phone_no" name="phone_no" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
